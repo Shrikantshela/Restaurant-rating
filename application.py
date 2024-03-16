@@ -3,6 +3,10 @@ import pickle
 import pandas as pd
 import os
 
+<<<<<<< HEAD:application.py
+=======
+
+>>>>>>> 4bdb244aab6529768a2e1fd39bb2996fc5154e3d:app.py
 application = Flask(__name__)
 app=application
 
