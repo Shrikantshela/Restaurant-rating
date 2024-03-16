@@ -3,7 +3,9 @@ import pickle
 import pandas as pd
 import os
 
-app = Flask(__name__)
+
+application = Flask(__name__)
+app=application
 
 model_path = os.path.join("artifacts", "model.pkl")
 cuisines_encoder_path = os.path.join("artifacts", "cuisines_encoder.pkl")
